@@ -10,8 +10,6 @@
 }
 
 /* Sells */
-a
-/* stylelint-disable-line */
 .location {
   font-family: "Segoe Script", "Savoye LET", cursive;
 }
@@ -23,8 +21,5 @@ a
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: "Segoe Script", "Savoye LET", cursive;
-}
-.footer{
   font-family: "Segoe Script", "Savoye LET", cursive;
 }
