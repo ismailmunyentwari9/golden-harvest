@@ -1,0 +1,27 @@
+/* Mission Styles */
+.mission {
+  background: url('./components/rsc/coffe.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* stylelint-disable-line */
+  font-family: "Segoe Script", "Savoye LET", cursive;
+}
+
+/* Sells */
+a
+/* stylelint-disable-line */
+.location {
+  font-family: "Segoe Script", "Savoye LET", cursive;
+}
+
+/* CoffeCapp */
+.coffeCap {
+  position: relative;
+  background: linear-gradient(rgba(62, 57, 57, 0.29), rgba(112, 104, 104, 0.5)), url('./components/rsc/coffe\ smell.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Segoe Script", "Savoye LET", cursive;
+}
