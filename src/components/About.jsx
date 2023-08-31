@@ -8,9 +8,9 @@ const About = () => (
   <div>
     <div className="about flex lg:flex-row flex-col w-[90%] container mx-auto gap-2 mb-10">
       <div className="lg:w-1/3 w-full">
-        <div className="flex items-center text-green-700 gap-2 mt-5">
+        <div className="flex items-center text-black gap-2 mt-5">
           {' '}
-          <span className="fa fa-american-sign-language-interpreting text-[45px] text-green-700" />
+          <span className="fa fa-american-sign-language-interpreting text-[45px] text-black" />
           <p className="w-2/3 font-bold text-lg">ABOUT GOLDEN HARVEST</p>
 
         </div>
@@ -22,7 +22,7 @@ const About = () => (
           {' '}
           <i className="fas fa-quote-right" />
         </p>
-        <button type="button" className="py-1 px-2 bg-green-700 text-[25px] text-white font-bold-medium rounded hover:bg-green-600 mt-4">
+        <button type="button" className="py-1 px-2 bg-orange-500 text-[25px] text-white font-thin rounded hover:bg-orange-400 mt-4">
           LEARN MORE
           <span className="fa fa-arrow-right font-normal ml-2" />
           {' '}

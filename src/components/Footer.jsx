@@ -12,15 +12,15 @@ const Footer = () => (
           <h2 className="lg:text-lg md:text-sm text-xs font-bold mb-5">Categories</h2>
           <ul>
             <li className="flex border-b-2 border-red-950 lg:text-sm text-xs">
-              <i className="fa fa-angle-right animate-bounce delay-1000 text-xl mr-1 font-bold text-green-500" />
+              <i className="fa fa-angle-right animate-bounce delay-1000 text-xl mr-1 font-bold text-black" />
               Coffee
             </li>
             <li className="flex border-b-2 border-red-950 lg:text-sm text-xs">
-              <i className="fa fa-angle-right animate-bounce delay-1000 text-xl mr-1 font-bold text-green-500" />
+              <i className="fa fa-angle-right animate-bounce delay-1000 text-xl mr-1 font-bold text-black" />
               Barista
             </li>
             <li className="flex border-b-2 border-red-950 lg:text-sm text-xs">
-              <i className="fa fa-angle-right animate-bounce delay-1000 text-xl mr-1 font-bold text-green-500" />
+              <i className="fa fa-angle-right animate-bounce delay-1000 text-xl mr-1 font-bold text-black" />
               Roastery Equipments
             </li>
           </ul>
@@ -29,23 +29,23 @@ const Footer = () => (
           <h2 className="lg:text-lg md:text-sm text-xs font-bold mb-5">About Golden Harvest</h2>
           <ul>
             <li className="flex border-b-2 border-red-950 lg:text-sm text-xs">
-              <i className="fa fa-angle-right animate-bounce delay-1000 text-xl mr-1 font-bold text-green-400" />
+              <i className="fa fa-angle-right animate-bounce delay-1000 text-xl mr-1 font-bold text-black" />
               Our Story
             </li>
             <li className="flex border-b-2 border-red-950 lg:text-sm text-xs">
-              <i className="fa fa-angle-right animate-bounce delay-1000 text-xl mr-1 font-bold text-green-500" />
+              <i className="fa fa-angle-right animate-bounce delay-1000 text-xl mr-1 font-bold text-black" />
               Training
             </li>
             <li className="flex border-b-2 border-red-950 lg:text-sm text-xs">
-              <i className="fa fa-angle-right animate-bounce delay-1000 text-xl mr-1 font-bold text-green-500" />
+              <i className="fa fa-angle-right animate-bounce delay-1000 text-xl mr-1 font-bold text-black" />
               Wholesale
             </li>
             <li className="flex border-b-2 border-red-950 lg:text-sm text-xs">
-              <i className="fa fa-angle-right animate-bounce delay-1000 text-xl mr-1 font-bold text-green-500" />
+              <i className="fa fa-angle-right animate-bounce delay-1000 text-xl mr-1 font-bold text-black" />
               Cafe Menu
             </li>
             <li className="flex border-b-2 border-red-950 lg:text-sm text-xs">
-              <i className="fa fa-angle-right animate-bounce delay-1000 text-xl mr-1 font-bold text-green-500" />
+              <i className="fa fa-angle-right animate-bounce delay-1000 text-xl mr-1 font-bold text-black" />
               Contact
             </li>
           </ul>
@@ -54,19 +54,19 @@ const Footer = () => (
           <h2 className="lg:text-lg md:text-sm text-xs font-bold mb-5">Customer Care</h2>
           <ul>
             <li className="flex border-b-2 border-red-950 lg:text-sm text-xs">
-              <i className="fa fa-angle-right animate-bounce delay-1000 text-xl mr-1 font-bold text-green-500" />
+              <i className="fa fa-angle-right animate-bounce delay-1000 text-xl mr-1 font-bold text-black" />
               My Account
             </li>
             <li className="flex border-b-2 border-red-950 lg:text-sm text-xs">
-              <i className="fa fa-angle-right animate-bounce delay-1000 text-xl mr-1 font-bold text-green-500" />
+              <i className="fa fa-angle-right animate-bounce delay-1000 text-xl mr-1 font-bold text-black" />
               Order Tracking
             </li>
             <li className="flex border-b-2 border-red-950 lg:text-sm text-xs">
-              <i className="fa fa-angle-right animate-bounce delay-1000 text-xl mr-1 font-bold text-green-500" />
+              <i className="fa fa-angle-right animate-bounce delay-1000 text-xl mr-1 font-bold text-black" />
               Shipping & Refunds
             </li>
             <li className="flex border-b-2 border-red-950 lg:text-sm text-xs">
-              <i className="fa fa-angle-right animate-bounce delay-1000 text-xl mr-1 font-bold text-green-500" />
+              <i className="fa fa-angle-right animate-bounce delay-1000 text-xl mr-1 font-bold text-black" />
               Terms & Conditions
             </li>
           </ul>

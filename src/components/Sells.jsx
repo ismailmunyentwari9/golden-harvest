@@ -78,7 +78,7 @@ const Sells = () => (
 
             </div>
           </div>
-          <button type="button" className="bg-green-700 text-center w-full rounded-b-2xl py-4 text-white  text-[20px] font-thin hidden  group-hover:block">
+          <button type="button" className="bg-orange-700 text-center w-full rounded-b-2xl py-4 text-white  text-[20px] font-thin hidden  group-hover:block">
             <span title="Add To Cart" className="fa fa-shopping-cart mr-2" />
             More Options
             {' '}

@@ -1,21 +1,26 @@
+import React from 'react';
 import './App.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Import Routes
 import Nav from './components/Navigation';
-import Mission from './components/Mission';
-import About from './components/About';
-import Sells from './components/Sells';
+import Home from './pages/Home';
+import About from './pages/About'; // Import your About component
 import Footer from './components/Footer';
-import CoffeeSmell from './components/CoffeeSmell';
 
 function App() {
   return (
-    <div className="App">
-      <Nav />
-      <Mission />
-      <About />
-      <Sells />
-      <CoffeeSmell />
-      <Footer />
-    </div>
+    <Router>
+      <div className="App">
+        <Nav />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          {' '}
+          {/* Use your About component */}
+          {/* Define more routes if needed */}
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
