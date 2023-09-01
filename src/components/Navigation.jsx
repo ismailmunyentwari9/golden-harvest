@@ -28,14 +28,20 @@ const Nav = () => (
       <button type="button" className="group flex flex-col">
         <span className="bg-orange-400 font-bold text-white rounded py-1 px-3 md:px-4 lg:hidden flex flex-col">Menu List</span>
         <ul className="bg-white hidden group-hover:block">
-          <li className="flex border-b-2 border-red-950">
-            <i className="fa fa-angle-right animate-bounce delay-1000 text-xl mr-1 font-bold text-black" />
-            Home
-          </li>
-          <li className="flex border-b-2 border-red-950">
-            <i className="fa fa-angle-right animate-bounce delay-1000 text-xl mr-1 font-bold text-bg-orange-500" />
-            About
-          </li>
+          <Link to="/">
+            <li className="flex border-b-2 border-red-950">
+              <i className="fa fa-angle-right animate-bounce delay-1000 text-xl mr-1 font-bold text-black" />
+              Home
+            </li>
+
+          </Link>
+          <Link to="/about">
+            <li className="flex border-b-2 border-red-950">
+              <i className="fa fa-angle-right animate-bounce delay-1000 text-xl mr-1 font-bold text-bg-orange-500" />
+              About
+            </li>
+
+          </Link>
           <li className="flex border-b-2 border-red-950">
             <i className="fa fa-angle-right animate-bounce delay-1000 text-xl mr-1 font-bold text-black" />
             Tea

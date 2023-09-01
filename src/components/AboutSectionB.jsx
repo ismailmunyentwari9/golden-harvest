@@ -1,21 +1,21 @@
 /* eslint-disable max-len */
 /* eslint-disable react/no-unescaped-entities */
 const AboutSextionB = () => (
-  <div className="container mx-auto flex items-center">
-    <div className="w-1/2">
+  <div className="container w-5/6 mx-auto flex items-center lg:flex-row flex-col">
+    <div className="lg:w-1/2 w-full">
       <img src="" alt="" />
       <img src="https://purepng.com/public/uploads/large/purepng.com-coffee-jarcoffee-jarcoffeecoffee-beansdark-coffee-1411527239986m8ws6.png" alt="" />
       <img src="" alt="" />
     </div>
-    <div className="w-1/2">
+    <div className="lg:w-1/2 w-full lg:mt-auto">
       <div className="flex items-center text-black gap-2 mt-5">
         {' '}
         <span className="fa fa-american-sign-language-interpreting text-[45px] text-black" />
-        <p className="w-2/3 font-bold text-lg">ABOUT GOLDEN HARVEST</p>
+        <p className="lg:w-2/3 w-full font-bold text-lg">ABOUT GOLDEN HARVEST</p>
 
       </div>
       <h1 className="text-[45px]">The Cleanest, Most Delicious Coffee Ever.</h1>
-      <p className="text-l w-5/6 font-bold text-lg">
+      <p className=" lg:w-5/6 w-full font-bold text-lg">
         <i className="fas fa-quote-left" />
         {' '}
         Indulge in the enchanting world of Golden Harvest
