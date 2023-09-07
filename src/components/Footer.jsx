@@ -103,8 +103,7 @@ const Footer = () => (
           <p className="location">
             {' '}
             <p>United Arab Emirates, </p>
-            <p> Cold Stores Building, Block 29, </p>
-            <p>Central Fruit and Vegetable Market</p>
+            <p> Cold Stores Building, Block 29</p>
 
           </p>
         </div>

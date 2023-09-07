@@ -11,9 +11,15 @@ const Nav = () => (
       <ul className="lg:flex gap-5 hidden">
         <Link to="/"><li className="text-lg font-bold text-orange-500">Home</li></Link>
         <Link to="/about"><li className="text-lg font-bold">About</li></Link>
-        <li className="text-lg font-bold">Contact</li>
-        <li className="text-lg font-bold">Tae</li>
-        <li className="text-lg font-bold">Coffee</li>
+        <Link to="/contact"><li className="text-lg font-bold">Contact</li></Link>
+        <Link to="/tea">
+          {' '}
+          <li className="text-lg font-bold">Tae</li>
+        </Link>
+        <Link to="/coffee">
+          {' '}
+          <li className="text-lg font-bold">Coffee</li>
+        </Link>
         <li><span className="fa fa-search text-white" /></li>
       </ul>
     </div>
@@ -21,10 +27,12 @@ const Nav = () => (
       <span className="fa fa-facebook text-lg" />
       <span className="fa fa-twitter text-lg" />
       <span className="fa fa-instagram text-lg" />
-      <button type="button" className="bg-orange-500 font-bold text-black rounded py-1 px-3 md:px-4 lg:block hidden">
-        CONTACT US
-      </button>
-      {/* Medium Menu */}
+      <Link to="/contact">
+        <button type="button" className="bg-orange-500 font-bold text-black rounded py-1 px-3 md:px-4 lg:block hidden">
+          CONTACT US
+        </button>
+
+      </Link>
       <button type="button" className="group flex flex-col">
         <span className="bg-orange-400 font-bold text-white rounded py-1 px-3 md:px-4 lg:hidden flex flex-col">Menu List</span>
         <ul className="bg-white hidden group-hover:block">
@@ -42,18 +50,27 @@ const Nav = () => (
             </li>
 
           </Link>
-          <li className="flex border-b-2 border-red-950">
-            <i className="fa fa-angle-right animate-bounce delay-1000 text-xl mr-1 font-bold text-black" />
-            Tea
-          </li>
-          <li className="flex border-b-2 border-red-950">
-            <i className="fa fa-angle-right animate-bounce delay-1000 text-xl mr-1 font-bold text-black" />
-            Coffee
-          </li>
-          <li className="flex border-b-2 border-red-950">
-            <i className="fa fa-angle-right animate-bounce delay-1000 text-xl mr-1 font-bold text-black" />
-            Contact
-          </li>
+          <Link to="/contact">
+            <li className="flex border-b-2 border-red-950">
+              <i className="fa fa-angle-right animate-bounce delay-1000 text-xl mr-1 font-bold text-black" />
+              Contact
+            </li>
+          </Link>
+          <Link to="/tea">
+            <li className="flex border-b-2 border-red-950">
+              <i className="fa fa-angle-right animate-bounce delay-1000 text-xl mr-1 font-bold text-black" />
+              Tea
+            </li>
+
+          </Link>
+          <Link to="/coffee">
+            <li className="flex border-b-2 border-red-950">
+              <i className="fa fa-angle-right animate-bounce delay-1000 text-xl mr-1 font-bold text-black" />
+              Coffee
+            </li>
+
+          </Link>
+
         </ul>
       </button>
     </div>
