@@ -116,7 +116,7 @@ const CoffeeSectionB = () => (
       </div>
       <div className="h-auto rounded pt-4 px-4 py-4 border border-solid border-gray-300 lg:h-auto lg:w-2/12  md:col-span-1 md:h-1/3 italic">
         <p className="computer-components font-bold text-orange-700 text-lg leading-6 w-3/4 mb-7 ">
-          Coffee & Coffee
+          Tea & Coffee
         </p>
         <div className="componets-items">
           <a href="#link" className="componets-items text-black text-medium font-medium landing-4  hover:not-italic"><p>Arabica Coffee</p></a>
