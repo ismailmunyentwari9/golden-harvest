@@ -62,7 +62,6 @@ const ItemDetail = ({ Coffee, Tea }) => {
         <h2 className="ml-[12%] mt-[2%]">
           <Link to="/"><span className="font-bold-md text-xs md:text-sm lg:text-lg text-gray-00 border-r border-black  mr-3 pr-2">Home</span></Link>
           <Link to="/tea"><span className="font-bold-md text-xs md:text-sm lg:text-lg text-gray-00 border-r border-black  mr-3 pr-2">Tea</span></Link>
-          <span className="font-bold-md text-xs md:text-sm lg:text-lg text-gray-00 border-r border-black  mr-3 pr-2">{category}</span>
           <Link to="/coffee">
             <span className="font-bold-md text-xs md:text-sm lg:text-lg text-gray-00 border-r border-black  mr-3 pr-2">
               Coffee
@@ -151,7 +150,7 @@ const ItemDetail = ({ Coffee, Tea }) => {
               <span className="font-bold">Category:</span>
               <span className="text-gray-500">Drink</span>
             </div>
-            <div className="flex gap-5 mt-5 text-lg bg-orange-500 p-4 rounded-lg ">
+            <div className="flex gap-5 mt-5 text-lg bg-green-700 p-4 rounded-lg ">
               <span className="fa fa-info border-2 border-solid border-black h-[32px] px-2 py-1 rounded" />
               <span className="">
                 <p className="text-white font-bold">
@@ -173,7 +172,7 @@ const ItemDetail = ({ Coffee, Tea }) => {
         <p className="text-3xl font-bold py-[2%] self-center lg:self-start">
           You May Like
           {' '}
-          <span className="fa fa-coffee text-orange-500" />
+          <span className="fa fa-coffee text-green-700" />
         </p>
         <div className="container mx-auto flex items-center justify-center gap-0 lg:gap-2 flex-col lg:flex-row">
           {randomProducts.map((product) => (
@@ -190,7 +189,7 @@ const ItemDetail = ({ Coffee, Tea }) => {
                 />
               </div>
               <div className="mt-10 px-3">
-                <span className="text-white font-bold text-xs leading-3 tracking-wider rounded bg-orange-500 px-2 py-1">
+                <span className="text-white font-bold text-xs leading-3 tracking-wider rounded bg-green-700 px-2 py-1">
                   New
                 </span>
                 <p className="category-name mt-3 text-sm text-black font-bold leading-6 ">
@@ -205,7 +204,7 @@ const ItemDetail = ({ Coffee, Tea }) => {
               </div>
             </div>
           ))}
-          <div className="bg-orange-500 flex flex-col w-[215px] h-[200px] px-4 py-3 rounded-lg self-center  ml-0 lg:ml-[35%]">
+          <div className="bg-green-700 flex flex-col w-[215px] h-[200px] px-4 py-3 rounded-lg self-center  ml-0 lg:ml-[35%]">
             <h4 className="font-bold text-lg">Your Current Cart</h4>
             <span className="font-bold text-[26px] pt-4">812$</span>
             <span className="font-[400] text-[15px]">for 3 item(s)</span>
@@ -276,7 +275,7 @@ const ItemDetail = ({ Coffee, Tea }) => {
                   />
                 </div>
                 <div className="mt-10 px-3">
-                  <span className="text-white font-bold text-xs leading-3 tracking-wider rounded bg-orange-500 px-2 py-1">
+                  <span className="text-white font-bold text-xs leading-3 tracking-wider rounded bg-green-700 px-2 py-1">
                     New
                   </span>
                   <p className="category-name mt-3 text-sm text-black font-bold leading-6 ">
@@ -290,7 +289,7 @@ const ItemDetail = ({ Coffee, Tea }) => {
                   </p>
                 </div>
                 <div className="hidden group-hover:block">
-                  <div className="flex justify-between px-4 py-3 bg-orange-500 text-white font-bold rounded-b-lg ">
+                  <div className="flex justify-between px-4 py-3 bg-green-700 text-white font-bold rounded-b-lg ">
                     <span>Add To Cart</span>
                   </div>
                 </div>
