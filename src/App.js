@@ -7,7 +7,10 @@ import About from './pages/About';
 import Footer from './components/Footer';
 import Contact from './pages/Contact';
 import Tea from './pages/Tea';
+import { TeaItems } from './components/TeaSectionB';
+import { CoffeeItems } from './components/CoffeeSectionB';
 import Coffee from './pages/Coffee';
+import Itemdetails from './pages/Itemdetails';
 
 function App() {
   return (
@@ -20,6 +23,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/tea" element={<Tea />} />
           <Route path="/coffee" element={<Coffee />} />
+          <Route path="/name/:name" element={<Itemdetails Tea={TeaItems} Coffee={CoffeeItems} />} />
 
         </Routes>
         <Footer />

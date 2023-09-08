@@ -1,54 +1,99 @@
+/* eslint-disable react/jsx-key */
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable react/jsx-no-undef */
 import React from 'react';
+import { Link } from 'react-router-dom';
+import Tea1 from './rsc/Gisovu 200.png';
 import CoffeeBag from './rsc/coffee.png';
+import Tea2 from './rsc/Gisovu 250.png';
+import Tea3 from './rsc/Rwandan Habal 200.png';
+import Tea4 from './rsc/Rwandan Habal 250.png';
+import Tea5 from './rsc/Rukeri 200.png';
+import Tea6 from './rsc/Rukeri 250.png';
+import Tea7 from './rsc/Rwandan green 200.png';
+import Tea8 from './rsc/Rwandan green 250.png';
+import Tea9 from './rsc/Rwandan Black 200.png';
 
-const products = [
+export const TeaItems = [
   {
-    name: 'MEDIUM-ROASTED BEANS',
+    id: 9,
+    name: 'Tea Gisovu 200g',
     price: 123,
+    description: 'Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expete mei. Mei an consequat an. Eius lorem tincidunt vix at, vel pertinax sensibus id, error epicurei mea et. Qui purto zril laoreet. Ex error omnium interpretaris pro.',
+    specification: 'Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expete mei. Mei an consequat an. Eius lorem tincidunt vix at, vel pertinax sensibus id, error epicurei mea et. Qui purto zril laoreet. Ex error omnium interpretaris pro.',
     discountPrice: 34,
-    image: CoffeeBag,
+    image: Tea1,
+    BigProducts: CoffeeBag,
   },
   {
-    name: 'MEDIUM-ROASTED BEANS',
+    id: 10,
+    name: 'Tea Gisovu 250g',
     price: 123,
+    description: 'Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expete mei. Mei an consequat an. Eius lorem tincidunt vix at, vel pertinax sensibus id, error epicurei mea et. Qui purto zril laoreet. Ex error omnium interpretaris pro.',
+    specification: 'Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expete mei. Mei an consequat an. Eius lorem tincidunt vix at, vel pertinax sensibus id, error epicurei mea et. Qui purto zril laoreet. Ex error omnium interpretaris pro.',
     discountPrice: 34,
-    image: CoffeeBag,
+    image: Tea2,
+    BigProducts: CoffeeBag,
   },
   {
-    name: 'MEDIUM-ROASTED BEANS',
+    id: 11,
+    name: 'Tea Rwandan Habal 200g',
     price: 123,
+    description: 'Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expete mei. Mei an consequat an. Eius lorem tincidunt vix at, vel pertinax sensibus id, error epicurei mea et. Qui purto zril laoreet. Ex error omnium interpretaris pro.',
+    specification: 'Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expete mei. Mei an consequat an. Eius lorem tincidunt vix at, vel pertinax sensibus id, error epicurei mea et. Qui purto zril laoreet. Ex error omnium interpretaris pro.',
     discountPrice: 34,
-    image: CoffeeBag,
+    image: Tea3,
+    BigProducts: CoffeeBag,
   },
   {
-    name: 'MEDIUM-ROASTED BEANS',
+    id: 12,
+    name: 'Tea Rwandan Habal 250g',
     price: 123,
+    description: 'Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expete mei. Mei an consequat an. Eius lorem tincidunt vix at, vel pertinax sensibus id, error epicurei mea et. Qui purto zril laoreet. Ex error omnium interpretaris pro.',
+    specification: 'Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expete mei. Mei an consequat an. Eius lorem tincidunt vix at, vel pertinax sensibus id, error epicurei mea et. Qui purto zril laoreet. Ex error omnium interpretaris pro.',
     discountPrice: 34,
-    image: CoffeeBag,
+    image: Tea4,
+    BigProducts: CoffeeBag,
   },
   {
-    name: 'MEDIUM-ROASTED BEANS',
+    id: 13,
+    name: 'Tea Rukeri 200',
     price: 123,
+    description: 'Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expete mei. Mei an consequat an. Eius lorem tincidunt vix at, vel pertinax sensibus id, error epicurei mea et. Qui purto zril laoreet. Ex error omnium interpretaris pro.',
+    specification: 'Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expete mei. Mei an consequat an. Eius lorem tincidunt vix at, vel pertinax sensibus id, error epicurei mea et. Qui purto zril laoreet. Ex error omnium interpretaris pro.',
     discountPrice: 34,
-    image: CoffeeBag,
+    image: Tea5,
+    BigProducts: CoffeeBag,
   },
   {
-    name: 'MEDIUM-ROASTED BEANS',
+    id: 14,
+    name: 'Tea Rukeri 25',
     price: 123,
+    description: 'Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expete mei. Mei an consequat an. Eius lorem tincidunt vix at, vel pertinax sensibus id, error epicurei mea et. Qui purto zril laoreet. Ex error omnium interpretaris pro.',
+    specification: 'Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expete mei. Mei an consequat an. Eius lorem tincidunt vix at, vel pertinax sensibus id, error epicurei mea et. Qui purto zril laoreet. Ex error omnium interpretaris pro.',
     discountPrice: 34,
-    image: CoffeeBag,
+    image: Tea6,
+    BigProducts: CoffeeBag,
   },
   {
-    name: 'MEDIUM-ROASTED BEANS',
+    id: 15,
+    name: 'Tea Rwandan green 200',
     price: 123,
+    description: 'Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expete mei. Mei an consequat an. Eius lorem tincidunt vix at, vel pertinax sensibus id, error epicurei mea et. Qui purto zril laoreet. Ex error omnium interpretaris pro.',
+    specification: 'Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expete mei. Mei an consequat an. Eius lorem tincidunt vix at, vel pertinax sensibus id, error epicurei mea et. Qui purto zril laoreet. Ex error omnium interpretaris pro.',
     discountPrice: 34,
-    image: CoffeeBag,
+    image: Tea7,
+    BigProducts: CoffeeBag,
   },
   {
-    name: 'MEDIUM-ROASTED BEANS',
+    id: 16,
+    name: 'Tea Rwandan green 250',
     price: 123,
+    description: 'Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expete mei. Mei an consequat an. Eius lorem tincidunt vix at, vel pertinax sensibus id, error epicurei mea et. Qui purto zril laoreet. Ex error omnium interpretaris pro.',
+    specification: 'Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expete mei. Mei an consequat an. Eius lorem tincidunt vix at, vel pertinax sensibus id, error epicurei mea et. Qui purto zril laoreet. Ex error omnium interpretaris pro.',
     discountPrice: 34,
-    image: CoffeeBag,
+    image: Tea8,
+    BigProducts: CoffeeBag,
   },
 ];
 
@@ -67,50 +112,53 @@ const TeaSectionB = () => (
           </div>
         </div>
         <div className="lg:w-auto md:h-auto md:w-1/3 ">
-          <img src={CoffeeBag} alt="home screen" />
+          <img src={Tea9} alt="home screen" />
         </div>
       </div>
       <div className="lg:w-8/12 md:col-span-2">
         <div className="gap-4 grid grid-cols-4">
-          {products.map((data) => (
-            <div
-              className=" item hover:border-orange-500 group flex flex-col justify-between py-5 hover:py-0 border border-solid border-gray-300 bg-white rounded-lg h-auto mb-4 relative col-span-4 lg:col-span-1 md:col-span-2"
-              key={data.id}
-            >
+          {TeaItems.map((data) => (
+            <Link to={`/name/${data.name}`}>
+              <div
+                className=" item hover:border-orange-500 group flex flex-col justify-between py-5 hover:py-0 border border-solid border-gray-300 bg-white rounded-lg h-auto mb-4 relative col-span-4 lg:col-span-1 md:col-span-2"
+                key={data.id}
+              >
 
-              <div className=" px-3 item-header flex justify-between flex-wrap lg:col-span-1 md:col-span-2">
-                <span className="text-black text-xs leading-4 tracking-tighter">Tea</span>
-                <span className="fas flex flex-col gap-2">
-                  <i className="fa fa-heart" />
-                  <i className="fa fa-exchange" />
-                </span>
-              </div>
-              <div className="item-image px-3 flex justify-center group">
-                <img className="w-216 h-216" src={data.image} alt="home screen" />
-              </div>
-              <div className="mt-10 px-3">
-                <span className="text-white text-xs leading-3 tracking-wider rounded bg-orange-500 px-2 py-1">
-                  New
-                </span>
-                <p className="category-name mt-3 text-sm text-black font-bold leading-6 ">
-                  {data.name}
-                </p>
-                <p className="flex items-center justify-between category-price mt-3">
-                  <span className="price text-black text-xl font-normal leading-6">
-                    $
-                    {data.price}
+                <div className=" px-3 item-header flex justify-between flex-wrap lg:col-span-1 md:col-span-2">
+                  <span className="text-black text-xs leading-4 tracking-tighter">Tea</span>
+                  <span className="fas flex flex-col gap-2">
+                    <i className="fa fa-heart" />
+                    <i className="fa fa-exchange" />
                   </span>
-
-                </p>
-              </div>
-              <div className="hidden group-hover:block">
-                <div className="flex justify-between px-4 py-3 bg-orange-500 text-white rounded-b-lg">
-                  <span>Shop Now</span>
-                  <i className="fa fa-shopping-cart rounded cursor-pointer" />
                 </div>
+                <div className="item-image px-3 flex justify-center group">
+                  <img className="w-216 h-216" src={data.image} alt="home screen" />
+                </div>
+                <div className="mt-10 px-3">
+                  <span className="text-white text-xs leading-3 tracking-wider rounded bg-orange-500 px-2 py-1">
+                    New
+                  </span>
+                  <p className="category-name mt-3 text-sm text-black font-bold leading-6 ">
+                    {data.name}
+                  </p>
+                  <p className="flex items-center justify-between category-price mt-3">
+                    <span className="price text-black text-xl font-normal leading-6">
+                      $
+                      {data.price}
+                    </span>
+
+                  </p>
+                </div>
+                <div className="hidden group-hover:block">
+                  <div className="flex justify-between px-4 py-3 bg-orange-500 text-white rounded-b-lg">
+                    <span>Item info</span>
+                    <i className="fa fa-info border-2 border-white p-[4px] rounded cursor-pointer" />
+                  </div>
+                </div>
+
               </div>
 
-            </div>
+            </Link>
           ))}
         </div>
       </div>
