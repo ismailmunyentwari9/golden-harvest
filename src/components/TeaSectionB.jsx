@@ -102,17 +102,18 @@ const TeaSectionB = () => (
   <div className="container mx-auto w-5/6 lg:mt-10 mt-0 mb-[5rem]">
     <div className="md:grid md:grid-cols-3 lg:flex gap-4 ">
       <div className="bg-white shadow-2xl rounded lg:flex-col lg:w-2/12 md:col-span-3 md:flex md:gap-40 lg:gap-10  px-2 flex-justify-center mb-3">
+        <p className="w-1/1 font-bold text-lg text-black mt-6 flex  flex-wrap">Tea Packages</p>
+        <div className="lg:w-auto md:h-auto md:w-1/3 ">
+          <img src={Tea9} alt="home screen" />
+        </div>
         <div className=":flex flex-col items-center justify-center">
           <div className="lg:gap-10 lg:w-1/1  py-2 md:w-1/1 md:flex md:flex-col md:gap-40 md:px-4">
-            <p className="lg:w-1/1 md:w-1/2 font-bold text-lg text-black mt-6">Tea Packages</p>
+
             <p className="flex gap-3 items-center  text-lg font-thin mt-5">
               Shop Now
               <i className="fa fa-times" />
             </p>
           </div>
-        </div>
-        <div className="lg:w-auto md:h-auto md:w-1/3 ">
-          <img src={Tea9} alt="home screen" />
         </div>
       </div>
       <div className="lg:w-8/12 md:col-span-2">
@@ -120,7 +121,7 @@ const TeaSectionB = () => (
           {TeaItems.map((data) => (
             <Link to={`/name/${data.name}`}>
               <div
-                className=" item hover:border-orange-500 group flex flex-col justify-between py-5 hover:py-0 border border-solid border-gray-300 bg-white rounded-lg h-auto mb-4 relative col-span-4 lg:col-span-1 md:col-span-2"
+                className=" item hover:border-green-800 group flex flex-col justify-between py-5 hover:py-0 border border-solid border-gray-300 bg-white rounded-lg h-auto mb-4 relative col-span-4 lg:col-span-1 md:col-span-2"
                 key={data.id}
               >
 
@@ -135,7 +136,7 @@ const TeaSectionB = () => (
                   <img className="w-216 h-216" src={data.image} alt="home screen" />
                 </div>
                 <div className="mt-10 px-3">
-                  <span className="text-white text-xs leading-3 tracking-wider rounded bg-orange-500 px-2 py-1">
+                  <span className="text-white text-xs leading-3 tracking-wider rounded bg-green-800 px-2 py-1">
                     New
                   </span>
                   <p className="category-name mt-3 text-sm text-black font-bold leading-6 ">
@@ -150,7 +151,7 @@ const TeaSectionB = () => (
                   </p>
                 </div>
                 <div className="hidden group-hover:block">
-                  <div className="flex justify-between px-4 py-3 bg-orange-500 text-white rounded-b-lg">
+                  <div className="flex justify-between px-4 py-3 bg-green-800 text-white rounded-b-lg">
                     <span>Item info</span>
                     <i className="fa fa-info border-2 border-white p-[4px] rounded cursor-pointer" />
                   </div>
@@ -163,7 +164,7 @@ const TeaSectionB = () => (
         </div>
       </div>
       <div className="h-auto rounded pt-4 px-4 py-4 border border-solid border-gray-300 lg:h-auto lg:w-2/12  md:col-span-1 md:h-1/3 italic">
-        <p className="computer-components font-bold text-orange-700 text-lg leading-6 w-3/4 mb-7 ">
+        <p className="computer-components font-bold text-green-700 text-lg leading-6 w-3/4 mb-7 ">
           Tea & Coffee
         </p>
         <div className="componets-items">

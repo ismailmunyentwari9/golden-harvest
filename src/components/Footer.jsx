@@ -9,71 +9,71 @@ const Footer = () => (
       </div>
       <div className="flex gap-10 font-thin w-[90%] mb-9 pt-2">
         <div className="w-1/3">
-          <h2 className="lg:text-lg md:text-sm text-xs font-bold mb-5">Categories</h2>
+          <h2 className="lg:text-xl md:text-sm  font-bold mb-5">Categories</h2>
           <ul>
-            <li className="flex border-b-2 border-red-950 lg:text-sm text-xs">
-              <i className="fa fa-angle-right animate-bounce delay-1000 text-xl mr-1 font-bold text-black" />
+            <li className="flex border-b-2 border-red-950 lg:text-sm ">
+              <i className="fa fa-angle-right animate-bounce delay-1000 text-2xl mr-1 font-bold text-black" />
               Coffee
             </li>
-            <li className="flex border-b-2 border-red-950 lg:text-sm text-xs">
-              <i className="fa fa-angle-right animate-bounce delay-1000 text-xl mr-1 font-bold text-black" />
+            <li className="flex border-b-2 border-red-950 lg:text-sm ">
+              <i className="fa fa-angle-right animate-bounce delay-1000 text-2xl mr-1 font-bold text-black" />
               Barista
             </li>
-            <li className="flex border-b-2 border-red-950 lg:text-sm text-xs">
-              <i className="fa fa-angle-right animate-bounce delay-1000 text-xl mr-1 font-bold text-black" />
+            <li className="flex border-b-2 border-red-950 lg:text-sm ">
+              <i className="fa fa-angle-right animate-bounce delay-1000 text-2xl mr-1 font-bold text-black" />
               Roastery Equipments
             </li>
           </ul>
         </div>
         <div>
-          <h2 className="lg:text-lg md:text-sm text-xs font-bold mb-5">About Golden Harvest</h2>
+          <h2 className="lg:text-xl md:text-sm  font-bold mb-5">About Golden Harvest</h2>
           <ul>
-            <li className="flex border-b-2 border-red-950 lg:text-sm text-xs">
-              <i className="fa fa-angle-right animate-bounce delay-1000 text-xl mr-1 font-bold text-black" />
+            <li className="flex border-b-2 border-red-950 lg:text-sm ">
+              <i className="fa fa-angle-right animate-bounce delay-1000 text-2xl mr-1 font-bold text-black" />
               Our Story
             </li>
-            <li className="flex border-b-2 border-red-950 lg:text-sm text-xs">
-              <i className="fa fa-angle-right animate-bounce delay-1000 text-xl mr-1 font-bold text-black" />
+            <li className="flex border-b-2 border-red-950 lg:text-sm ">
+              <i className="fa fa-angle-right animate-bounce delay-1000 text-2xl mr-1 font-bold text-black" />
               Training
             </li>
-            <li className="flex border-b-2 border-red-950 lg:text-sm text-xs">
-              <i className="fa fa-angle-right animate-bounce delay-1000 text-xl mr-1 font-bold text-black" />
+            <li className="flex border-b-2 border-red-950 lg:text-sm ">
+              <i className="fa fa-angle-right animate-bounce delay-1000 text-2xl mr-1 font-bold text-black" />
               Wholesale
             </li>
-            <li className="flex border-b-2 border-red-950 lg:text-sm text-xs">
-              <i className="fa fa-angle-right animate-bounce delay-1000 text-xl mr-1 font-bold text-black" />
+            <li className="flex border-b-2 border-red-950 lg:text-sm ">
+              <i className="fa fa-angle-right animate-bounce delay-1000 text-2xl mr-1 font-bold text-black" />
               Cafe Menu
             </li>
-            <li className="flex border-b-2 border-red-950 lg:text-sm text-xs">
-              <i className="fa fa-angle-right animate-bounce delay-1000 text-xl mr-1 font-bold text-black" />
+            <li className="flex border-b-2 border-red-950 lg:text-sm ">
+              <i className="fa fa-angle-right animate-bounce delay-1000 text-2xl mr-1 font-bold text-black" />
               Contact
             </li>
           </ul>
         </div>
         <div>
-          <h2 className="lg:text-lg md:text-sm text-xs font-bold mb-5">Customer Care</h2>
+          <h2 className="lg:text-xl md:text-sm  font-bold mb-5">Customer Care</h2>
           <ul>
-            <li className="flex border-b-2 border-red-950 lg:text-sm text-xs">
-              <i className="fa fa-angle-right animate-bounce delay-1000 text-xl mr-1 font-bold text-black" />
+            <li className="flex border-b-2 border-red-950 lg:text-sm ">
+              <i className="fa fa-angle-right animate-bounce delay-1000 text-2xl mr-1 font-bold text-black" />
               My Account
             </li>
-            <li className="flex border-b-2 border-red-950 lg:text-sm text-xs">
-              <i className="fa fa-angle-right animate-bounce delay-1000 text-xl mr-1 font-bold text-black" />
+            <li className="flex border-b-2 border-red-950 lg:text-sm ">
+              <i className="fa fa-angle-right animate-bounce delay-1000 text-2xl mr-1 font-bold text-black" />
               Order Tracking
             </li>
-            <li className="flex border-b-2 border-red-950 lg:text-sm text-xs">
-              <i className="fa fa-angle-right animate-bounce delay-1000 text-xl mr-1 font-bold text-black" />
+            <li className="flex border-b-2 border-red-950 lg:text-sm ">
+              <i className="fa fa-angle-right animate-bounce delay-1000 text-2xl mr-1 font-bold text-black" />
               Shipping & Refunds
             </li>
-            <li className="flex border-b-2 border-red-950 lg:text-sm text-xs">
-              <i className="fa fa-angle-right animate-bounce delay-1000 text-xl mr-1 font-bold text-black" />
+            <li className="flex border-b-2 border-red-950 lg:text-sm ">
+              <i className="fa fa-angle-right animate-bounce delay-1000 text-2xl mr-1 font-bold text-black" />
               Terms & Conditions
             </li>
           </ul>
         </div>
       </div>
     </div>
-    <div className="w-[98%] container mx-auto border-b border-red-950 lg:text-sm text-xs mb-3" />
+    <div className="w-[98%] container mx-auto border-b border-red-950 lg:text-sm  mb-3" />
     <div className="w-[95%] container mx-auto flex lg:flex-row flex-col lg:justify-between mb-10">
       <div className="mb-3">
         <p className="text-gray-500 text-sm">
@@ -87,8 +87,8 @@ const Footer = () => (
       <div className="flex gap-10 lg:flex-row md:flex-row flex-col">
         <div>
           {' '}
-          <h2 className="font-bold text-xl">Call for order:</h2>
-          <p className="location">
+          <h2 className="font-bold text-2xl">Call for order:</h2>
+          <p className="location text-xl">
             {' '}
             <p>+971504777204</p>
             <p> +971529155445 </p>
@@ -99,8 +99,8 @@ const Footer = () => (
         </div>
         <div>
           {' '}
-          <h2 className="font-bold text-xl">Location :</h2>
-          <p className="location">
+          <h2 className="font-bold text-2xl">Location :</h2>
+          <p className="location text-xl">
             {' '}
             <p>United Arab Emirates, </p>
             <p> Cold Stores Building, Block 29</p>

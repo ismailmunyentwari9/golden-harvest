@@ -25,14 +25,14 @@ const AboutSectionC = () => (
           </p>
           <div className="flex flex-col mt-10 gap-4">
             <p>
-              <span className="border-2 rounded-full p-1 text-white bg-orange-700 mr-2 border-black fa fa-check" />
+              <span className="border-2 rounded-full p-1 text-white bg-green-700 mr-2 border-black fa fa-check" />
               <span className="font-thin">
                 Best Way to Serve Our Coffee
               </span>
 
             </p>
             <p>
-              <span className="border-2 rounded-full p-1 text-white bg-orange-700 mr-2 border-black fa fa-check" />
+              <span className="border-2 rounded-full p-1 text-white bg-green-700 mr-2 border-black fa fa-check" />
               <span className="font-thin">
                 Low Cost & Onlie Order
               </span>
@@ -46,7 +46,7 @@ const AboutSectionC = () => (
     <div className="flex   flex-col lg:gap-20 gap-5 lg:w-1/2 w-full mt-20 ">
       <div className="flex gap-10">
         <div className="flex gap-3  lg:flex-row flex-col">
-          <span className="fas fa-users text-orange-700 text-[35px]  " />
+          <span className="fas fa-users text-green-700 text-[35px]  " />
           <span className="font-thin lg:text-2xl text-lg">
 
             <span className="font-bold">34+</span>
@@ -55,7 +55,7 @@ const AboutSectionC = () => (
           </span>
         </div>
         <div className="flex gap-3  lg:flex-row flex-col">
-          <span className="fas fa-seedling text-orange-700 text-[35px] " />
+          <span className="fas fa-seedling text-green-700 text-[35px] " />
           <span className="font-thin lg:text-2xl text-lg">
             <span className="font-bold">32+</span>
             {' '}
@@ -66,7 +66,7 @@ const AboutSectionC = () => (
       </div>
       <div className="flex gap-10">
         <div className="flex gap-3  lg:flex-row flex-col">
-          <span className="fas fa-award text-orange-700 text-[35px]  " />
+          <span className="fas fa-award text-green-700 text-[35px]  " />
           <span className="font-thin lg:text-2xl text-lg">
 
             <span className="font-bold">We’ve 13+</span>
@@ -75,7 +75,7 @@ const AboutSectionC = () => (
           </span>
         </div>
         <div className="flex gap-3  lg:flex-row flex-col">
-          <span className="fas fa-clipboard-list text-orange-700 text-[35px] " />
+          <span className="fas fa-clipboard-list text-green-700 text-[35px] " />
           <span className="font-thin lg:text-2xl text-lg">
             <span className="font-bold">10+</span>
             {' '}

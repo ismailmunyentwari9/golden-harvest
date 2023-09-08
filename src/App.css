@@ -6,12 +6,12 @@
   background-size: cover;
 
   /* stylelint-disable-line */
-  font-family: "Savoye LET", cursive;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Sells */
 .location {
-  font-family:"Savoye LET", cursive;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* CoffeCapp */
@@ -21,11 +21,11 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family:"Savoye LET", cursive;
+  font-family: Arial, Helvetica, sans-serif;
 }
 /* AboutSextionA */
 .AboutSextionA h3{
-  font-family: cursive;
+  font-family: Arial, Helvetica, sans-serif;  
 }
 /* contact */
 .contacts{
