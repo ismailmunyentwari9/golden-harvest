@@ -19,8 +19,8 @@ const TeaSectionA = () => (
           </Link>
         </button>
       </div>
-      <div className="lg:w-1/2 w-full lg:mt-auto mt-10">
-        <img src="https://www.pngmart.com/files/1/Coffee-Beans-PNG-File.png" alt="coffe bean" className="w-full rounded animate-pulse" />
+      <div className="lg:w-1/3 lg:mt-auto mt-10">
+        <img src="https://freepngimg.com/save/155652-organic-mint-green-tea-png-download-free/512x512" alt="coffe bean" className="w-full rounded animate-pulse" />
       </div>
     </div>
   </div>

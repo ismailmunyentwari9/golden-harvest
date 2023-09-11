@@ -8,6 +8,7 @@ import Coffee7 from './rsc/gishugi 200.png';
 import Tea8 from './rsc/Rwandan green 250.png';
 import Coffee4 from './rsc/bourbon 250.png';
 import Coffee1 from './rsc/maraba 200.png';
+import 'animate.css';
 
 const products = [
   {
@@ -94,8 +95,8 @@ const products = [
 ];
 
 const Sells = () => (
-  <div className="sells py-10 container mx-auto">
-    <h2 className=" text-center font-serif text-black font-bold text-4xl pb-6 ">
+  <div className=" sells py-10 container mx-auto">
+    <h2 className="animate__animated animate__bounce text-center font-serif text-black font-bold text-4xl pb-6 ">
       FEATURED PRODUCTS
     </h2>
     <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 justify-center items-center rounded-b-xl">

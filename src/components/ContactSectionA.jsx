@@ -20,8 +20,8 @@ const ContactSextionA = () => (
           </Link>
         </button>
       </div>
-      <div className="lg:w-1/2 w-full lg:mt-auto mt-10">
-        <img src="https://www.pngmart.com/files/1/Coffee-Beans-PNG-File.png" alt="coffe bean" className="w-full rounded animate-pulse" />
+      <div className="lg:w-1/3 w-1/2 self-center lg:mt-auto mt-10">
+        <img src="https://icon-library.com/images/contact-us-icon-png/contact-us-icon-png-1.jpg" alt="coffe bean" className="w-full rounded animate-pulse" />
       </div>
     </div>
   </div>
