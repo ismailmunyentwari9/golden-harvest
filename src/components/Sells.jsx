@@ -94,15 +94,16 @@ const products = [
 ];
 
 const Sells = () => (
-  <div className="sells py-10">
-    <h2 className="text-center font-serif text-black font-bold text-4xl pb-6 ">
+  <div className="sells py-10 container mx-auto">
+    <h2 className=" text-center font-serif text-black font-bold text-4xl pb-6 ">
       FEATURED PRODUCTS
     </h2>
     <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 justify-center items-center rounded-b-xl">
-      {products.map((product) => (
+      {products.map((product, index) => (
         <div
           key={product.name}
-          className=" m-2  bg-white shadow-lg rounded-t-sm rounded-b-2xl transition-transform transform hover:scale-105 group "
+          className=" wow fadeInLeftBig animated m-2  bg-white shadow-lg rounded-t-sm rounded-b-2xl transition-transform transform hover:scale-105 group "
+          data-wow-delay={`${index * 0.3}s`}
         >
           <img src={product.image} alt={product.name} className="w-full h-48 object-cover p-2 " />
           <div className="mt-4 p-4">

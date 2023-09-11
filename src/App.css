@@ -48,3 +48,17 @@ input::placeholder,textarea::placeholder {
  font-size: 100%;
  color:silver;
 }
+.fadeDownBig{
+  animation-name: fadeInDownBig;
+}
+.fadeInLeftBig {
+  animation-name: fadeInUpBig;
+}
+.fadeLeft{
+  animation-name: fadeInLeftBig;
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}

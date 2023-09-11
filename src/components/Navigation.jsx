@@ -3,7 +3,7 @@ import Logo from './rsc/logo.png';
 
 const Nav = () => (
 
-  <div className="container mx-auto py-5 flex items-center justify-between px-5">
+  <div className="container mx-auto flex items-center justify-between px-5 ">
     <div>
       <img className="w-24 md:w-36" src={Logo} alt="Logo" />
     </div>
