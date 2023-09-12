@@ -1,3 +1,4 @@
+/* eslint-disable no-alert */
 /* eslint-disable react-hooks/rules-of-hooks */
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 /* eslint-disable jsx-a11y/no-static-element-interactions */
@@ -7,6 +8,22 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 
 const ItemDetail = ({ Coffee, Tea }) => {
+  // Add And Reduce  On Cart......
+  const [addCart, SetAddCart] = useState(0);
+
+  // hundlelling reduceCart.....
+  const hundleReduceCart = () => {
+    if (addCart > 0) {
+      SetAddCart(addCart - 1);
+    } else {
+      alert('You have no Item in the Cart');
+    }
+  };
+
+  // hundlelling addCart.....
+  const hundleAddCart = () => {
+    SetAddCart(addCart + 1);
+  };
   const { name } = useParams();
   // Find the item with the matching ID in both sets of items
   const selectedCofeeItem = Coffee.find((item) => item.name.toString() === name);
@@ -59,7 +76,7 @@ const ItemDetail = ({ Coffee, Tea }) => {
   return (
     <div className="w-full ">
       <div className=" pb-[10%]">
-        <h2 className="ml-[12%] mt-[2%]">
+        <h2 className="ml-[12%] mt-[2%] flex gap-2">
           <Link to="/"><span className="font-bold-md text-xs md:text-sm lg:text-lg text-gray-00 border-r border-black  mr-3 pr-2">Home</span></Link>
           <Link to="/tea"><span className="font-bold-md text-xs md:text-sm lg:text-lg text-gray-00 border-r border-black  mr-3 pr-2">Tea</span></Link>
           <Link to="/coffee">
@@ -69,6 +86,13 @@ const ItemDetail = ({ Coffee, Tea }) => {
 
           </Link>
           <span className="font-bold-md text-xs md:text-sm lg:text-lg text-gray-00">{product}</span>
+          <div className="flex">
+            <i className="  fa fa-shopping-cart text-black text-lg" />
+            <span className="font-bold  w-5 h-5  items-center rounded-full flex justify-center  bg-green-500">
+              {addCart}
+            </span>
+          </div>
+
         </h2>
         <div className="container mx-auto w-5/6 grid grid-cols-1 lg:grid-cols-2 gap-11  justify-center pt-[5%]">
           <div className="col-span-1 ">
@@ -123,12 +147,15 @@ const ItemDetail = ({ Coffee, Tea }) => {
             </div>
             <div className="flex gap-4 text-center mt-4">
               <span className="border border-solid border-gray-400  lg:px-8 lg:pt-3 px-4 py-3 h-auto text-xl rounded-xl font-bold">
-                1
+
+                {addCart}
+                {' '}
+                Package(s)
               </span>
 
               <span className="flex flex-col font-bold text-3xl">
-                <i className="fa fa-angle-up" />
-                <i className="fa fa-angle-down" />
+                <i onClick={hundleAddCart} className="fa fa-angle-up" />
+                <i onClick={hundleReduceCart} className="fa fa-angle-down" />
               </span>
               <button
                 type="button"
@@ -206,8 +233,18 @@ const ItemDetail = ({ Coffee, Tea }) => {
           ))}
           <div className="bg-green-700 flex flex-col w-[215px] h-[200px] px-4 py-3 rounded-lg self-center  ml-0 lg:ml-[35%]">
             <h4 className="font-bold text-lg">Your Current Cart</h4>
-            <span className="font-bold text-[26px] pt-4">812$</span>
-            <span className="font-[400] text-[15px]">for 3 item(s)</span>
+            <span className="font-bold text-[26px] pt-4">
+              $
+              {addCart * 123}
+            </span>
+            <span className="font-[400] text-[15px]">
+              for
+              {' '}
+              <span />
+              {addCart}
+              {' '}
+              Package(s)
+            </span>
             <button
               type="button"
               className=" rounded-lg bg-rgba-custom text-white font-bold px-6 py-3 w-[177px]"
@@ -228,7 +265,7 @@ const ItemDetail = ({ Coffee, Tea }) => {
           </div>
           <span
             onClick={() => setIsDescriptionVisible(!isDescriptionVisible)}
-            className={`fa ${isDescriptionVisible ? 'fa-minus' : 'fa-plus'} border border-solid rounded border-gray-200 pt-[5px] text-[18px] px-1 hover:bg-blue-500 h-7`}
+            className={`fa ${isDescriptionVisible ? 'fa-minus' : 'fa-plus'} border border-solid rounded border-gray-200 pt-[5px] text-[18px] px-1 hover:bg-green-500 h-7`}
           />
         </p>
         {/* Divider */}
@@ -244,7 +281,7 @@ const ItemDetail = ({ Coffee, Tea }) => {
           </div>
           <span
             onClick={() => setIsSpecificationVisible(!isSpecificationVisible)}
-            className={`fa ${isSpecificationVisible ? 'fa-minus' : 'fa-plus'} border border-solid rounded border-gray-200 pt-[5px] text-[18px] px-1 hover:bg-blue-500 h-7`}
+            className={`fa ${isSpecificationVisible ? 'fa-minus' : 'fa-plus'} border border-solid rounded border-gray-200 pt-[5px] text-[18px] px-1 hover:bg-green-500 h-7`}
           />
         </p>
         {/* Divider */}

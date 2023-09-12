@@ -106,15 +106,15 @@ const CoffeeSectionB = () => {
 
     <div className="container mx-auto w-5/6 lg:mt-10 mt-0 mb-[5rem]">
       <div className="md:grid md:grid-cols-3 lg:flex gap-4 ">
-        <div className="bg-white shadow-2xl rounded lg:flex-col lg:w-2/12 md:col-span-3 md:flex md:gap-40 lg:gap-10  px-2 flex-justify-center mb-3">
-          <p className="w-1/1 font-bold text-lg text-black mt-6 flex  flex-wrap">Coffee Packages</p>
-          <div className="lg:w-auto md:h-auto md:w-1/3 ">
+        <div className="bg-black opacity-100 shadow-2xl rounded lg:flex-col lg:w-2/12 md:col-span-3 md:flex md:gap-40 lg:gap-10  px-2 flex-justify-center mb-3">
+          <p className="w-1/1 font-bold text-lg text-white mt-6 flex  flex-wrap">Best Selling Coffee</p>
+          <div className="lg:w-auto md:h-auto md:w-1/3 border-2 rounded-2xl border-white">
             <img src={Coffee4} alt="home screen" />
           </div>
           <div className=":flex flex-col items-center justify-center">
             <div className="lg:gap-10 lg:w-1/1  py-2 md:w-1/1 md:flex md:flex-col md:gap-40 md:px-4">
 
-              <p className="flex gap-3 items-center  text-lg font-thin mt-5">
+              <p className="flex gap-3 items-center text-white  text-lg mt-5 border-2 border-white rounded-r-xl justify-center fadeLeft animated">
                 Shop Now
                 <i className="fa fa-times" />
               </p>

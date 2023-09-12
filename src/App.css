@@ -62,3 +62,7 @@ input::placeholder,textarea::placeholder {
   animation-duration: 1s;
   animation-fill-mode: both;
 }
+.active-link {
+  color: green; /* Change this to your desired active link color */
+  /* Add any other styles to indicate the active link */
+}
