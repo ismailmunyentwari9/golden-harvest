@@ -181,7 +181,6 @@ const CoffeeSectionB = () => {
             <a href="#link" className="componets-items text-black text-medium font-medium hover:not-italic leading-5"><p>Peaberry Coffee</p></a>
             <a href="#link" className="componets-items text-black text-medium font-medium landing-4 hover:not-italic"><p>Gishugi Coffee</p></a>
             <a href="#link" className="componets-items text-black text-medium font-medium landing-4 hover:not-italic"><p>Rwandan Black Coffee</p></a>
-            <a href="#link" className="componets-items text-black text-medium font-medium landing-4 hover:not-italic"><p>Printers</p></a>
             <a href="#link" className="componets-items text-black text-medium font-medium landing-4 hover:not-italic"><p>Rwandan Green Coffee</p></a>
             <a href="#link" className="componets-items text-black text-medium font-medium landing-4 hover:not-italic"><p>Rukeri Coffee</p></a>
             <a href="#link" className="componets-items text-black text-medium font-medium landing-4 hover:not-italic"><p>Gisovu Coffee</p></a>
