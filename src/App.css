@@ -6,12 +6,12 @@
   background-size: cover;
 
   /* stylelint-disable-line */
-  font-family: "Segoe Script", "Savoye LET", cursive;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Sells */
 .location {
-  font-family: "Segoe Script", "Savoye LET", cursive;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* CoffeCapp */
@@ -21,9 +21,48 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: "Segoe Script", "Savoye LET", cursive;
+  font-family: Arial, Helvetica, sans-serif;
 }
 /* AboutSextionA */
 .AboutSextionA h3{
-  font-family: cursive;
+  font-family: Arial, Helvetica, sans-serif;  
+}
+/* contact */
+.contacts{
+  color:white;
+  background: linear-gradient(rgba(62, 57, 57, 0.29), rgba(112, 104, 104, 0.5)), url('./components/rsc/coffe\ smell.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+input, textarea{
+  margin-bottom: 1%;
+  background-color: transparent;
+  border-bottom: 1px solid orange;
+}
+input:focus, textarea:focus{
+outline: none;
+}
+
+input::placeholder,textarea::placeholder {
+ font-size: 100%;
+ color:silver;
+}
+.fadeDownBig{
+  animation-name: fadeInDownBig;
+}
+.fadeInLeftBig {
+  animation-name: fadeInUpBig;
+}
+.fadeLeft{
+  animation-name: fadeInLeftBig;
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+.active-link {
+  color: green; /* Change this to your desired active link color */
+  /* Add any other styles to indicate the active link */
 }
