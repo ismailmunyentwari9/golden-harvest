@@ -90,9 +90,8 @@ const Footer = () => (
           <h2 className="font-bold text-2xl">Call for order:</h2>
           <p className="location text-xl">
             {' '}
-            <p>+971504777204</p>
-            <p> +971529155445 </p>
-            <p>+250788202604</p>
+            <p>+971567166979</p>
+
             <p>Info@goldenharvestz.com</p>
 
           </p>
